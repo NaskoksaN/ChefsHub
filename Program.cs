@@ -30,6 +30,17 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//show routing
+app.Use(async (context, next) =>
+{
+    var endpoint = context.GetEndpoint();
+    Console.WriteLine("===============================================================================");
+    Console.WriteLine($"Request for {context.Request.Path} to endpoint: {endpoint?.DisplayName}");
+    Console.WriteLine("===============================================================================");
+    await next();
+});
+
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -37,4 +48,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.RunAsync();
+app.Run();
