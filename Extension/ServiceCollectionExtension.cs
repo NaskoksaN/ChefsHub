@@ -1,7 +1,9 @@
 ﻿
-using ChefsHub.Data;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+
+using ChefsHub.Infrastructure.Data;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
