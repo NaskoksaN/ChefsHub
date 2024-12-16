@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Constants\" />
+    <Folder Include="Data\Common\Contracts\" />
+    <Folder Include="Data\Common\Service\" />
+    <Folder Include="Data\Enum\" />
+    <Folder Include="Data\Models\" />
+  </ItemGroup>
+
 </Project>
