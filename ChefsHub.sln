@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChefsHub", "ChefsHub\ChefsHub.csproj", "{C8C50872-6F42-4F53-BC62-51F19EC42A24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChefsHub.Web", "ChefsHub\ChefsHub.Web.csproj", "{C8C50872-6F42-4F53-BC62-51F19EC42A24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChefsHub.Core", "ChefsHub.Core\ChefsHub.Core.csproj", "{3F979CFF-4817-44CB-935D-693F667BFD44}"
 EndProject
